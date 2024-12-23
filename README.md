@@ -29,14 +29,14 @@ llm-auto-browsing-copilot/
 
 1. Navigate to the frontend directory:
    ```bash
-   cd frontend
+   - cd frontend
 2. npx create-react-app llm-copilot
-cd llm-copilot
-npm start
+- cd llm-copilot
+- npm start
 
 # 3. cd ..
-mkdir backend
-cd backend
+- mkdir backend
+- cd backend
 
 # 4. python -m venv venv
 
