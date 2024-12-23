@@ -27,19 +27,28 @@ llm-auto-browsing-copilot/
 
 ### 1. Set up the Frontend (React)
 
-1. Navigate to the frontend directory:
-   ```bash
+Navigate to the frontend directory:
    - cd frontend
-2. npx create-react-app llm-copilot
+ Install package
+-npx create-react-app llm-copilot
 - cd llm-copilot
-- npm start
 
-# 3. cd ..
+# Run the frontend part
+- npm start
+  
+# Make Directory For Backend 
+-cd
 - mkdir backend
 - cd backend
 
-# 4. python -m venv venv
+# Create the virtual enviornment 
+-python -m venv venv
 
-# 5. .venv\Scripts\activate
+# Activate the Environment 
+- .venv\Scripts\activate
 
-# 6. pip install flask openai flask-cors python-dotenv
+#  Install Package for the Backend 
+-pip install flask openai flask-cors python-dotenv
+
+# Run Backend by
+- Python App.py (Make sure Virtual Environment is activated while doing this)
