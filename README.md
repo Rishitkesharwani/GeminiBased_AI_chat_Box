@@ -37,12 +37,12 @@ Navigate to the frontend directory:
 - npm start
   
 # Make Directory For Backend 
--cd
+- cd
 - mkdir backend
 - cd backend
 
 # Create the virtual enviornment 
--python -m venv venv
+- python -m venv venv
 
 # Activate the Environment 
 - .venv\Scripts\activate
