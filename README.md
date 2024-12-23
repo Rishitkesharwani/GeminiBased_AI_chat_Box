@@ -4,23 +4,23 @@
 
 llm-auto-browsing-copilot/
 │
-├── frontend/
-│   ├── llm-copilot/          # React app for the frontend
-│   │   ├── public/
-│   │   ├── src/
-│   │   │   ├── components/   # React components
-│   │   │   │   ├── InputBox.jsx
-│   │   │   │   ├── Navbar.jsx
-│   │   │   │   ├── ResultCard.jsx
-│   │   │   ├── App.js
-│   │   │   ├── index.js
-│   │   │   ├── styles.css
-│   │   ├── package.json
+├──  -frontend/
+│   ├── - llm-copilot/          # React app for the frontend
+│   │   ├── - public/
+│   │   ├── - src/
+│   │   │   ├── - components/   # React components
+│   │   │   │   ├── - InputBox.jsx
+│   │   │   │   ├── - Navbar.jsx
+│   │   │   │   ├── - ResultCard.jsx
+│   │   │   ├── - App.js
+│   │   │   ├── - index.js
+│   │   │   ├── - styles.css
+│   │   ├── - package.json
 │
 ├── backend/
-│   ├── app.py                # Python Flask app
-│   ├── requirements.txt      # Backend dependencies
-│   ├── .env                  # Environment variables
+│   ├── - app.py                # Python Flask app
+│   ├── - requirements.txt      # Backend dependencies
+│   ├── - .env                  # Environment variables
 
 
 ## Getting Started
@@ -48,7 +48,7 @@ Navigate to the frontend directory:
 - .venv\Scripts\activate
 
 #  Install Package for the Backend 
--pip install flask openai flask-cors python-dotenv
+- pip install flask openai flask-cors python-dotenv
 
 # Run Backend by
 - Python App.py (Make sure Virtual Environment is activated while doing this)
